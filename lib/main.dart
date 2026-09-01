@@ -236,7 +236,7 @@ class _TicketPageState extends State<TicketPage> with TickerProviderStateMixin {
                     borderRadius: BorderRadius.circular(5),
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.grey.withOpacity(0.2),
+                        color: Colors.grey.withValues(alpha: 0.2),
                         spreadRadius: 2,
                         blurRadius: 5,
                         offset: const Offset(0, 3),
@@ -335,7 +335,7 @@ class PulseBadge extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: outerColor.withOpacity(0.95),
+                color: outerColor.withValues(alpha: 0.95),
               ),
             ),
           ),
