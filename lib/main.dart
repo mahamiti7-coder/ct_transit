@@ -217,7 +217,7 @@ class _TicketPageState extends State<TicketPage> with TickerProviderStateMixin {
                   _formattedTime,
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    fontSize: w * 0.13, // was w * 0.155, smaller clock text
+                    fontSize: w * 0.145, // was w * 0.155, smaller clock text
                     fontWeight: FontWeight.w900,
                     color: const Color(0xFF3C4043),
                   ),
