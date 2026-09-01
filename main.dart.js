@@ -35252,7 +35252,7 @@ p===$&&A.b()
 o=A.m0(d,A.bH(a1,d,c).w.a.b*0.12,d)
 n=r.d
 n===$&&A.b()
-n=A.a_t(n,A.hs(d,d,B.dT,d,d,d,d,d,d,d,d,a*0.11,d,d,B.hm,d,d,!0,d,d,d,d,d,d,d,d),B.dc)
+n=A.a_t(n,A.hs(d,d,B.dT,d,d,d,d,d,d,d,d,a*0.13,d,d,B.hm,d,d,!0,d,d,d,d,d,d,d,d),B.dc)
 m=A.m0(d,A.bH(a1,d,c).w.a.b*0.01,d)
 l=A.bH(a1,d,c).w.a.b*0.02
 k=a*0.05
@@ -35265,7 +35265,7 @@ c=A.m0(d,A.bH(a1,d,c).w.a.b*0.04,d)
 r=r.e
 r===$&&A.b()
 e=t.U
-return new A.fU(B.iM,d,d,A.m0(A.abX(A.d([s,new A.CG(a0,q,p,B.xD,B.xM,a0*0.1,a0*0.13333333333333333,a0*0.2,"assets/images/logo_3.png",0.75,0.92,1.17,0.9,1,d),o,n,m,A.qy(d,A.abX(A.d([h,g,f,c,A.a_t("Expires "+r,A.hs(d,d,B.xW,d,d,d,d,d,d,d,d,a*0.042,d,d,B.e5,d,d,!0,d,d,d,d,d,d,d,d),d)],e),B.aH,B.bn),B.M,d,new A.dv(B.i,d,d,j,i,d,B.bc),d,d,d,new A.bo(k,l,k,l),d,d,d)],e),B.bL,B.bn),d,b),d)},
+return new A.fU(B.iM,d,d,A.m0(A.abX(A.d([s,new A.CG(a0,q,p,B.xD,B.xM,a0*0.058333333333333334,a0*0.13333333333333333,a0*0.2,"assets/images/logo_3.png",0.75,0.92,1.17,0.9,1,d),o,n,m,A.qy(d,A.abX(A.d([h,g,f,c,A.a_t("Expires "+r,A.hs(d,d,B.xW,d,d,d,d,d,d,d,d,a*0.042,d,d,B.e5,d,d,!0,d,d,d,d,d,d,d,d),d)],e),B.aH,B.bn),B.M,d,new A.dv(B.i,d,d,j,i,d,B.bc),d,d,d,new A.bo(k,l,k,l),d,d,d)],e),B.bL,B.bn),d,b),d)},
 $S:292}
 A.CG.prototype={
 O(a){var s=this,r=null,q=t.a7,p=q.h("ay<ah.T>"),o=s.c,n=s.y,m=(o-n*2)*s.Q,l=A.XS(A.qy(r,r,B.M,r,new A.dv(s.f.t9(0.95),r,r,r,r,r,B.bC),r,r,r,r,r,r,r),new A.ay(s.d,new A.ax(s.as,s.at,q),p)),k=s.x,j=new A.bz(s.r,s.w,B.G,-1)
