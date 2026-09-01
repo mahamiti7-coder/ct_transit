@@ -124,8 +124,8 @@ class _TicketPageState extends State<TicketPage> with TickerProviderStateMixin {
   static const double kInnerEnd   = 1.00;
 
   // Colors
-  static const Color kOuterColor = Color(0xFFD81B60);
-  static const Color kRingColor  = Color(0xFFC2185B);
+  static const Color kOuterColor = Color(0xFFFFC107); // yellow (was pink 0xFFD81B60)
+  static const Color kRingColor  = Color(0xFFFFA000);  // darker yellow ring (was 0xFFC2185B)
 
   @override
   void initState() {
@@ -217,7 +217,7 @@ class _TicketPageState extends State<TicketPage> with TickerProviderStateMixin {
                   _formattedTime,
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    fontSize: w * 0.155,
+                    fontSize: w * 0.11, // was w * 0.155, smaller clock text
                     fontWeight: FontWeight.w900,
                     color: const Color(0xFF3C4043),
                   ),
