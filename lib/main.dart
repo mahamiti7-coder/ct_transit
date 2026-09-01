@@ -180,7 +180,7 @@ class _TicketPageState extends State<TicketPage> with TickerProviderStateMixin {
         // Proportional geometry based on CSS 240px design
         final double ringMargin  = badgeSize * (32 / 240);
         final double whiteMargin = badgeSize * (48 / 240);
-        final double ringWidth   = badgeSize * (24 / 240);
+        final double ringWidth   = badgeSize * (14 / 240);
 
         return Align(
           alignment: Alignment.topCenter, // horizontally center the whole column
@@ -217,7 +217,7 @@ class _TicketPageState extends State<TicketPage> with TickerProviderStateMixin {
                   _formattedTime,
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    fontSize: w * 0.11, // was w * 0.155, smaller clock text
+                    fontSize: w * 0.13, // was w * 0.155, smaller clock text
                     fontWeight: FontWeight.w900,
                     color: const Color(0xFF3C4043),
                   ),
